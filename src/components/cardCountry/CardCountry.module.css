@@ -1,0 +1,58 @@
+.card {
+    width: 90%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    
+    margin: 3%;
+    padding: 2%;
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  
+  .image_container {
+    width: 20%;
+    margin-right: 3%;
+    size-adjust:initial;
+  }
+  
+  .image {
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+   
+  }
+  
+  .text_container {
+    text-align: left;
+    padding-inline-start: 2%;
+  }
+  
+  .link {
+    text-decoration: none;
+    margin-bottom: 0;
+    color: black;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  .country {
+    font-size: 22px;
+    color:rgb(37, 31, 3);
+    margin-bottom: 0;
+    justify-items: center;
+  }
+  
+  .continents {
+    font-size: 15px;
+    margin-top: 20px;
+    color: darkblue
+  }
+  .population{
+    font-size: 15px;
+    color:rgb(108, 52, 122)
+  }
+
+  

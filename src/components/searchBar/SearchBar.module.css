@@ -1,0 +1,26 @@
+.container{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.input{
+    height: 80%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn{
+    height: 80%;
+    width: 20%;
+    background-color: #000034;
+    color: aliceblue;
+   
+}
+
+.btn:hover{
+    cursor: pointer;
+}

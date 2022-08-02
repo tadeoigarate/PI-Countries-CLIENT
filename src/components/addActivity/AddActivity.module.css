@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+     color:#202520 ;
+    font-weight: bold; 
+}
+
+.container{
+    margin-top: 2px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-size: cover;
+    background: #dbdbdb;
+
+}
+
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap:15px;
+    padding: 1vh 3vh;
+    background-color: rgb(255, 255, 255);
+    z-index:5;
+    border-radius: 15px;
+    width: 50%;
+  
+
+}
+
+.title{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   justify-content: center;
+    padding:8px;
+    margin-top: 12px;
+    margin-bottom: 2vh;
+    margin-left:180px;
+    color: #000034;
+}
+
+.formSection{
+    width: 100%;
+    display: grid;
+    grid-template-rows: max-content;
+    align-items:center;
+    margin: 5px;
+    text-align:left;
+}
+
+.formSection:last-of-type{
+    margin-bottom: 30px;
+}
+
+.input{
+    display:inline-table;
+    width: 30px;
+    margin: 12px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.danger{
+    border: 2px solid crimson;
+}
+    
+
+.btnBack{
+    width: 50%;
+    color:rgb(255, 255, 255);
+    background-color: #000034;
+    line-height: 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.add{
+    width:50%;
+    color:rgb(255, 255, 255);
+    background-color: #000034;
+    line-height: 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.add:hover,
+.btnBack:hover{
+    cursor:pointer;
+    background-color: #dbdbdb;
+    color: black
+}
+
+ul{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+}
+.select{
+    margin: 12px;
+    padding: 5px;
+    display: inline-table;
+    width: 30px;
+    font-size: 25px;
+}
+.label{
+    display: flex;
+    font-weight: 550;
+    width: 180px;
+    padding:10px;
+    min-height: 40px;
+    cursor:pointer;
+}
+body{
+    background-color: #dbdbdb;
+}
+
+p.danger{
+    color: crimson;
+    font-size: 15px;
+    justify-content: baseline;
+    display: inline;
+}

@@ -1,0 +1,71 @@
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: #dbdbdb;
+   
+}
+.flags{
+    padding-top: 20%;
+    margin-top: 80px;
+    margin-left: 130px;
+    
+    display: flex;
+   flex-direction:row;
+    width: 350px;
+    height: 300px;
+}
+.card{
+    display: flex;
+    width: 600px;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top:550px ;   
+}
+
+.dataContainer{
+    margin-top: 15px;
+    margin-left: 130px;
+    margin-bottom: 200px;
+    
+}
+
+.image{
+    width: 20px;
+    height: 30px;
+    
+}
+
+.title{
+    margin-right: 150px;
+    font-size: 25px;
+    color: rgb(19, 16, 233);
+  
+}
+
+h4{
+    margin: 10px;  
+}
+
+.activities{
+    font-size: 18px;
+    color: rgb(233, 31, 16);
+    margin:5px;
+  
+}
+
+.divi{
+    margin-bottom: 30px;
+    margin-left:20px;  
+}
+
+.body{
+    background-color: #dbdbdb;
+}
+
+
