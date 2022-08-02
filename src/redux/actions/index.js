@@ -19,7 +19,7 @@ import axios from 'axios';
 // export function getAllCountries() {
 //     return async function(dispatch){
 //         try{
-//             const countries = await axios.get('http://localhost:3001/countries');
+//             const countries = await axios.get('https://pi-countr-ies.herokuapp.com/countries');
 //             return dispatch({
 //                 type: GET_ALL_COUNTRIES,
 //                 payload: countries.data
@@ -40,7 +40,7 @@ export const getChina = (payload) => {
 
 export const getAllCountries = () => (dispatch) => {
     try {
-        return fetch('http://localhost:3001/countries')
+        return fetch('https://pi-countr-ies.herokuapp.com/countries')
             .then((response) => response.json())
             .then((data) => {
                 dispatch({
@@ -56,7 +56,7 @@ export const getAllCountries = () => (dispatch) => {
 // export function getCountryByName(name) {
 //     return async function(dispatch){
 //         try{
-//             const country = await axios.get(`http://localhost:3001/countries?name=${name}`)
+//             const country = await axios.get(`https://pi-countr-ies.herokuapp.com/countries?name=${name}`)
 //             return dispatch({
 //                 type: GET_COUNTRY_BY_NAME,
 //                 payload: country.data
@@ -69,7 +69,7 @@ export const getAllCountries = () => (dispatch) => {
 
 export const getCountryByName = (name) => (dispatch) => {
     try {
-        return fetch(`http://localhost:3001/countries?name=${name}`)
+        return fetch(`https://pi-countr-ies.herokuapp.com/countries?name=${name}`)
             .then((response) => response.json())
             .then((data) => {
                     dispatch({
@@ -85,7 +85,7 @@ export const getCountryByName = (name) => (dispatch) => {
 export function getCountryDetails(id) {
     return async function(dispatch){
         try{
-            const details= await axios.get(`http://localhost:3001/countries/${id}`)
+            const details= await axios.get(`https://pi-countr-ies.herokuapp.com/countries/${id}`)
             
             return dispatch({
                 type: GET_COUNTRY_DETAILS,
@@ -100,7 +100,7 @@ export function getCountryDetails(id) {
 
 export function addActivity(payload) {
     return async function (dispatch){
-            const newActivity= await axios.post('http://localhost:3001/activities', payload)
+            const newActivity= await axios.post('https://pi-countr-ies.herokuapp.com/activities', payload)
             return dispatch({
                 type: ADD_ACTIVITY,
                 payload: newActivity
@@ -113,7 +113,7 @@ export function addActivity(payload) {
 export function getActivity(){
     return async function(dispatch){
         try{
-            const activity= await axios.get('http://localhost:3001/activities')
+            const activity= await axios.get('https://pi-countr-ies.herokuapp.com/activities')
             return dispatch({
                 type: GET_ACTIVITY,
                 payload: activity.data
